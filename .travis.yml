@@ -7,8 +7,10 @@ services:
 
 before_install:
   - bash tools/scripts/setup-env.sh
-  - sudo pip install --upgrade pip setuptools tox
 
-install: pip install tox-travis
+install:
+  - pip install tox tox-travis pytest==4.5.0 PyYAML==5.1
+  - curl https://github.com/AFCYBER-DREAM/piedpiper-midflayer/archive/master.zip -O /tmp/piedpiper-mindflayer.zip
+  - unzip /tmp/piedpiper-mindflayer.zip
 
 script: tox
