@@ -1,4 +1,5 @@
 # PiedPiper Flake8 Function
+[![Build Status](https://travis-ci.org/AFCYBER-DREAM/piedpiper-flake8-faas.svg?branch=master)](https://travis-ci.org/AFCYBER-DREAM/piedpiper-flake8-faas)
 
 ### Table of Contents
 
